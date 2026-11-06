@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Rounded Base Background: Dark Navy/Indigo -->
+  <rect width="64" height="64" rx="14" fill="#11152B"/>
+  
+  <!-- Subtle Brand Gradient Glow -->
+  <rect width="64" height="64" rx="14" fill="url(#bg-glow)" opacity="0.6"/>
+
+  <!-- Customer Support Chat Bubble -->
+  <path d="M14 18C14 14.6863 16.6863 12 20 12H44C47.3137 12 50 14.6863 50 18V35C50 38.3137 47.3137 41 44 41H25L18 47V41H20C16.6863 41 14 38.3137 14 35V18Z" fill="url(#bubble-grad)"/>
+
+  <!-- AI Neural Routing Circuit Structure -->
+  <!-- Central Input Node -->
+  <circle cx="28" cy="26.5" r="3.5" fill="#FFFFFF"/>
+  
+  <!-- Routing Destination Nodes -->
+  <circle cx="41" cy="20" r="2.5" fill="#EDE9FE"/>
+  <circle cx="41" cy="33" r="2.5" fill="#EDE9FE"/>
+  
+  <!-- Pathway Vectors -->
+  <path d="M21 26.5H24.5" stroke="#EDE9FE" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M31.2 25L38.5 21" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M31.2 28L38.5 32" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Subtle AI Intelligence Sparkle Indicator -->
+  <circle cx="47" cy="14" r="2" fill="#8B7CFF"/>
+  
+  <defs>
+    <linearGradient id="bg-glow" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#635BFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#11152B" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bubble-grad" x1="14" y1="12" x2="50" y2="47" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7B70FF"/>
+      <stop offset="1" stop-color="#5548E8"/>
+    </linearGradient>
+  </defs>
+</svg>

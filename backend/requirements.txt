@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.11.0+cpu
+fastapi
+uvicorn[standard]
+transformers==5.20.2
+scikit-learn==1.6.1
+joblib==1.6.0
+numpy
+python-dotenv
+sqlalchemy>=2.0.25
+psycopg2-binary>=2.9.9
+alembic>=1.13.1
+httpx
